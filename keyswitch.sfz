@@ -27,12 +27,12 @@
 <control>
 label_cc11=Swell Pedal
 set_cc11=70
-sw_default=21
 
 <global> amp_veltrack=0 global_volume=-32 gain_cc11=24 loop_mode=loop_continuous lokey=35
-sustain_lo=128 // disable sustain pedal. Don't use this with Aria
+sustain_sw=off // disable sustain pedal, as it might be used to control rotor speed
 sw_lokey=21
 sw_hikey=32
+sw_default=21
 
 // blues
 <region>sample=8880-00-000.wav sw_last=21
