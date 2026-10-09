@@ -75,6 +75,7 @@ Mod Wheel -> Registration
 ## Hopeful improvemens
 
 - keyclick, if I can find a good sample
+- python program to create wave file and sfz for a user-specified set of registrations.
 
 ## Not likely to happen
 
