@@ -36,6 +36,7 @@ set_cc23=0
 set_cc24=0
 
 <global> amp_veltrack=0 global_volume=-48 gain_cc11=24 sustain_lo=128 loop_mode=loop_continuous
+sustain_lo=128 // disable sustain pedal. Don't use this with Aria
 
 <region>sample=*sine transpose=-12 amplitude_oncc16=100 volume=12 locc16=10
 <region>sample=*sine transpose=7   amplitude_oncc17=100           locc17=10

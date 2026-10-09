@@ -30,7 +30,7 @@ set_cc11=70
 sw_default=21
 
 <global> amp_veltrack=0 global_volume=-32 gain_cc11=24 loop_mode=loop_continuous lokey=35
-// sustain_lo=128 // disable sustain pedal. Don't use this with Aria
+sustain_lo=128 // disable sustain pedal. Don't use this with Aria
 sw_lokey=21
 sw_hikey=32
 
