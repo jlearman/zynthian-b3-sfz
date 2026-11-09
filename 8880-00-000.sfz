@@ -1,0 +1,25 @@
+// Cheezy Hammond Drawbar Sim: Fixed, single 8880-00-0000 registration.
+// This is a template for creating your own presets with wavefiles
+// created using mkham.py .
+
+// DrawbarOrgan.sfz uses a voice per nonzero drawbar, so up to 8
+// voices per note.  To avoid that overhead, figure out what registrations
+// you want, and for each one:
+//
+// - create the wave file for a note using mkham.py:
+//    ./mkham.py <reg> ...
+//    where <reg> ... is any number of registrations using the format
+//      nnn-nn-nnnn, where each n is the level for that drawbar, 0-8.
+// - Copy this template to nnn-nn-nnnn.sfz (or whatever you want to name it)
+//   and replace 8880-00-000.wav with your registration.
+//
+// NOTE: you will need to install numpy and scipy Python3 modules.
+
+<control>
+label_cc11=Swell Pedal
+set_cc11=70
+
+<global> amp_veltrack=0 global_volume=-32 gain_cc11=24 loop_mode=loop_continuous lokey=35
+sustain_sw=off // disable sustain pedal, as it might be used to control rotor speed
+
+<region>sample=8880-00-000.wav
